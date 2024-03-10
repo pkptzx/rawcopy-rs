@@ -1,0 +1,29 @@
+[package]
+name = "rawcopy-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["码魂 <pkptzx@gmail.com>"]
+description = "RawCopy crate provides the capability to use \"Volume Shadow Copy technology\" for file copying in Rust.Primarily aimed at replicating files that cannot be directly copied due to being in use."
+homepage = "https://github.com/pkptzx/rawcopy-rs"
+repository = "https://github.com/pkptzx/rawcopy-rs"
+documentation = "https://docs.rs/rawcopy-rs"
+readme = "README.md"
+license = "MIT"
+keywords = ["rawcopy","filesystem", "ntfs", "windows","VolumeShadowCopy"]
+categories = ["filesystem","os::windows-apis"]
+
+[[bin]]
+name = "rawcopy"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.80"
+normpath = "1.2.0"
+ntfs = "0.4.0"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 'z' # Optimize for size
+panic = "abort"
+strip = "symbols"
