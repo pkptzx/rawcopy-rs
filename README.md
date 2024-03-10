@@ -32,10 +32,10 @@ example:
 rawcopy.exe "C:\swapfile.sys" d:\tmp
 ```
 ### Use rawcopy-rs crate in Rust
-#### 1. Add tui-realm to your Cargo.toml
+#### 1. Add rawcopy-rs to your Cargo.toml
 ```toml
 [dependencies]
-rawcopy-rs = "1.0.80"
+rawcopy-rs = "0.1.0"
 ```
 #### 2. use api to copy file
 ```rust
