@@ -3,9 +3,10 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/pkptzx/rawcopy-rs"><img src="https://img.shields.io/github/stars/pkptzx/rawcopy-rs"></a>
-  <a href="https://github.com/pkptzx/rawcopy-rs"><img src="https://img.shields.io/docsrs/rawcopy-rs"></a> 
-  <a href="https://github.com/pkptzx/rawcopy-rs"><img src="https://img.shields.io/crates/d/rawcopy-rs"></a>  
+  <a href="https://github.com/pkptzx/rawcopy-rs"><img src="https://img.shields.io/github/stars/pkptzx/rawcopy-rs"></a> 
+  <a href="https://docs.rs/rawcopy-rs"><img src="https://img.shields.io/docsrs/rawcopy-rs"></a> 
+  <a href="https://github.com/pkptzx/rawcopy-rs/releases/latest"><img src="https://img.shields.io/crates/d/rawcopy-rs"></a> 
+  <a href="https://crates.io/crates/rawcopy-rs"><img src="https://img.shields.io/crates/v/rawcopy-rs"></a>
   <a href="https://github.com/pkptzx/rawcopy-rs"><img src="https://img.shields.io/github/license/pkptzx/rawcopy-rs"></a>
 </p>
 
