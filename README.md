@@ -35,7 +35,7 @@ rawcopy.exe "C:\swapfile.sys" d:\tmp
 #### 1. Add rawcopy-rs to your Cargo.toml
 ```toml
 [dependencies]
-rawcopy-rs = "0.1.0"
+rawcopy-rs = "0.1.2"
 ```
 #### 2. use api to copy file
 ```rust
