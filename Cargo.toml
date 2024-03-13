@@ -1,6 +1,6 @@
 [package]
 name = "rawcopy-rs"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["码魂 <pkptzx@gmail.com>"]
 description = "RawCopy crate provides the capability to use \"Volume Shadow Copy technology\" for file copying in Rust.Primarily aimed at replicating files that cannot be directly copied due to being in use."

@@ -83,7 +83,7 @@ pub fn rawcopy(file_path: &str, save_path: &str) -> Result<()> {
     };
 
     for ele in components {
-        println!("{}", ele);
+        // println!("{}", ele);
         cd(ele, &mut info)?;
     }
 
